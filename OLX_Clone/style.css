@@ -1,0 +1,206 @@
+.main {
+    display: flex;
+    padding: 2%;
+    width: 100%;
+}
+
+.motor {
+    margin-left: 3%;
+}
+
+.property {
+    margin-left: 3%;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.up {
+    position: absolute;
+    right: 360px;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: rgb(50, 199, 50);
+}
+
+.search {
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 5px;
+    width: 28%;
+}
+
+.s_icon {
+    position: absolute;
+    left: 3px;
+    padding: 4px;
+}
+
+::placeholder {
+    margin-left: 2%;
+}
+
+.find {
+    width: 40%;
+    display: flex;
+    border: 1px solid rgb(0, 47, 52);
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+.login {
+    margin-left: 3%;
+    font-size: larger;
+    display: flex;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 47, 52);
+    font-weight: 700;
+    width: 6%;
+    height: 40px;
+}
+
+.sell {
+    margin-left: 2%;
+}
+
+.drop>li {
+    list-style: none;
+    color: rgb(0, 47, 52);
+}
+
+.drop>li:hover {
+    color: rgb(7, 204, 204);
+}
+
+.drop_m {
+    width: 20%;
+}
+
+.dropdown-item {
+    font-weight: 650;
+}
+
+.dp_cl {
+    color: black;
+    font-weight: 650;
+}
+
+.nav2 {
+    background-color: white !important;
+}
+
+.fresh {
+    padding: 2%;
+    width: 100%;
+
+}
+
+.ban{
+    width: 100%;
+}
+
+.ban_img{
+    width: 100%;
+}
+
+.btn_outline{
+    border: 2px solid rgb(0, 47, 52);
+    font-weight: 600;
+    background-color: white !important;
+    color: black !important;
+}
+
+.btn_outline:hover{
+    border: 3px solid rgb(1, 37, 41);
+}
+
+.btn_outline:active{
+    background-color: whitesmoke;
+}
+
+.cd{
+    padding-top: 3%;
+    margin-left: 2%;
+    width: 30%;
+}
+
+.cd>h6{
+    text-align: left;
+}
+
+.cd_ul>p{
+    cursor: pointer;
+}
+
+.cd_ul>p:hover{
+    color: rgb(1, 37, 41);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .find {
+        width: 90%;
+        display: flex;
+        border: 1px solid rgb(0, 47, 52);
+        border-radius: 5px;
+        margin-left: 0%;
+        margin-top: 10px;
+    }
+
+    .login {
+        text-decoration: none;
+        border-bottom: 2px solid rgb(0, 47, 52);
+        font-weight: 700;
+        width: 60px;
+        height: 35px;
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+
+    .search {
+        width: 58%;
+        display: block;
+    }
+
+    .sell {
+        margin-left: 3%;
+        margin-top: 10px;
+    }
+
+    .ban {
+        display: none;
+    }
+
+    .fresh {
+        font-size: 30px;
+    }
+}
